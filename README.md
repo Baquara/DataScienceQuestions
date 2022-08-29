@@ -34,3 +34,17 @@ Logistic regression is a supervised learning algorithm used to predict a depende
 In essence, if you have a large set of data that you want to categorize, logistic regression may be able to help.
 Logistic regression is a statistical analysis method to predict a binary outcome, such as yes or no, based on prior observations of a data set. 
 A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables.
+
+What are the pros and cons of a linear model?
+
+
+A linear model has a number of advantages over other models. First, it is very easy to understand and explain. Second, it is easy to use and implement. Finally, linear models are very flexible and can be easily extended to more complex situations.
+However, linear models also have a number of disadvantages. First, they can be inaccurate in predicting outcomes. Second, they can be too simplistic and may not capture all the important relationships in the data. Finally, linear models can be sensitive to outliers and can be easily affected by them.
+
+How would you use SQL to find all duplicates in a data set?
+
+
+SELECT * 
+FROM data 
+GROUP BY data 
+HAVING COUNT(*) > 1
